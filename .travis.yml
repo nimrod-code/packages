@@ -9,7 +9,7 @@ cache:
     - "$HOME/.choosenim"
 
 install:
-  - export CHOOSENIM_CHOOSE_VERSION="0.18.0"
+  - export CHOOSENIM_CHOOSE_VERSION="1.2.0"
   - |
       curl https://nim-lang.org/choosenim/init.sh -sSf > init.sh
       sh init.sh -y
@@ -20,7 +20,15 @@ before_script:
   - set -x
 
 script:
-  - nim c -d:ssl -r package_scanner.nim && node ./validate_json.js
+  - nim -v
+  - nim -v
+  - nim --aasdf1
+  - nim -v
+  - nim --aasdf2
+  - nim -v
+  - nim js -r validate_json.nim
+  - nim c -d:ssl -r package_scanner.nim
+  - nim -v
 
 notifications:
   email: false # noisy
