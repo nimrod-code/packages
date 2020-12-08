@@ -287,8 +287,7 @@
       "Bip Buffer",
       "Circular",
       "Ring",
-      "Buffer",
-      "nim"
+      "Buffer"
     ],
     "description": "A Nim implementation of Simon Cooke's Bip Buffer. A type of circular buffer ensuring contiguous blocks of memory",
     "license": "MIT",
@@ -12320,7 +12319,6 @@
     "url": "https://github.com/alehander42/gara",
     "method": "git",
     "tags": [
-      "nim",
       "pattern"
     ],
     "description": "A pattern matching library",
@@ -13626,8 +13624,7 @@
     "url": "https://github.com/lihf8515/parseini",
     "method": "git",
     "tags": [
-      "parseini",
-      "nim"
+      "parseini"
     ],
     "description": "A high-performance ini parse library for nim.",
     "license": "MIT",
@@ -13987,8 +13984,7 @@
     "method": "git",
     "tags": [
       "iup",
-      "gui",
-      "nim"
+      "gui"
     ],
     "description": "IUP FFI bindings",
     "license": "MIT",
